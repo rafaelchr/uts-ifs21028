@@ -29,7 +29,7 @@ class NestActivity : AppCompatActivity() {
     }
 
     private fun openProfile(){
-        val intent = Intent(this@MainActivity, ProfileActivity::class.java)
+        val intent = Intent(this@NestActivity, ProfileActivity::class.java)
         startActivity(intent)
     }
 
@@ -87,7 +87,7 @@ class NestActivity : AppCompatActivity() {
     }
 
     private fun showSelectedFamili(famili: Famili) {
-        val intentWithData = Intent(this@MainActivity, DetailActivity::class.java)
+        val intentWithData = Intent(this@NestActivity, DetailActivity::class.java)
         intentWithData.putExtra(DetailActivity.EXTRA_FAMILI, famili)
         startActivity(intentWithData)
     }

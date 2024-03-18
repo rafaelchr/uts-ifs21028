@@ -26,7 +26,7 @@ class DinoAdapter(private val dinoList: ArrayList<Dino>) :
 
     inner class DinoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val nameTextView: TextView = itemView.findViewById(R.id.ivItemDino)
-        private val descTextView: TextView = itemView.findViewById(R.id.iv)
+        private val descTextView: TextView = itemView.findViewById(R.id.ivItemFamili)
 
         fun bind(dino: Dino) {
             nameTextView.text = dino.name
