@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_famili_icon">Ikon Famili</string>
+    <string name="info_famili_name">Nama Famili</string>
+    <string name="info_famili_desc">Deskripsi</string>
+    <string name="info_famili_periode">Periode Hidup</string>
+    <string name="info_famili_characteristic">Karakteristik Fisik</string>
+    <string name="info_famili_place">Habitat</string>
+    <string name="info_famili_envi">Lingkungan</string>
+    <string name="info_famili_behavior">Perilaku</string>
+    <string name="info_famili_classif">Klasifikasi</string>
+
+    <string name="info_dino_icon">Gambar</string>
+    <string name="info_dino_name">Nama Dinosaurus</string>
+    <string name="info_dino_desc">Deskripsi</string>
+    <string name="info_dino_char">Karakteristik</string>
+    <string name="info_dino_group">Kelompok</string>
+    <string name="info_dino_habitat">Habitat</string>
+    <string name="info_dino_food">Makanan</string>
+    <string name="info_dino_length">Panjang</string>
+    <string name="info_dino_height">Tinggi</string>
+    <string name="info_dino_weight">Bobot</string>
+    <string name="info_dino_weak">Kelemahan</string>
+
+    <string-array name="famili_name">
+        <item>Saurischia</item>
+        <item>Ornithischia</item>
+        <item>Thyreophora</item>
+        <item>Ceratopsia</item>
+        <item>Sauropodomorpha</item>
+        <item>Theropoda</item>
+        <item>Ceratosauria</item>
+        <item>Hadrosauridae</item>
+    </string-array>
+
+    <string-array name="famili_icon">
+        <item>@drawable/icf_saurischia</item>
+        <item>@drawable/icf_ornithischia</item>
+        <item>@drawable/icf_thyreophora</item>
+        <item>@drawable/icf_ceratopsia</item>
+        <item>@drawable/icf_sauropodomorpha</item>
+        <item>@drawable/icf_theropoda</item>
+        <item>@drawable/icf_ceratosauria</item>
+        <item>@drawable/icf_hadrosauridae</item>
+    </string-array>
+
+    <string-array name="famili_description">
+        <item>Kelompok ini mencakup dinosaurus dengan ciri-ciri kaki reptil berbentuk seperti cakar, dan diperkirakan sebagai nenek moyang burung modern</item>
+        <item>Kelompok ini mencakup dinosaurus dengan bentuk tubuh yang mirip burung tetapi tidak berkaitan dengan burung</item>
+        <item>Dinosaurus dengan tubuh yang dilindungi oleh pelat-pelat atau duri-duri</item>
+        <item>Dinosaurus herbivora dengan ciri khas tanduk di kepala dan kadang-kadang dilengkapi dengan lempeng atau tanduk besar di bagian belakang tengkorak</item>
+        <item>Grup ini terdiri dari dinosaurus bertubuh besar dengan leher dan ekor panjang, umumnya herbivora</item>
+        <item>Kelompok ini terdiri dari dinosaurus karnivora dengan ciri-ciri seperti cakar dan gigi tajam</item>
+        <item>Sebagian besar anggotanya adalah dinosaurus karnivora dengan tanduk di hidung dan gigi tajam</item>
+        <item>uga dikenal sebagai "dinosaurus bebek", kelompok ini adalah dinosaurus herbivora dengan moncong seperti bebek dan seringkali memiliki ratusan gigi yang rapi</item>
+    </string-array>
+
+    <string-array name="famili_periode">
+        <item>Mulai dari awal periode Jura hingga akhir periode Kapur (sekitar 201 hingga 66 juta tahun yang lalu)</item>
+        <item>Periode Trias Akhir hingga Kapur Akhir (sekitar 230 hingga 66 juta tahun yang lalu)</item>
+        <item>Dari akhir Trias hingga Kapur Akhir (sekitar 200 hingga 66 juta tahun yang lalu)</item>
+        <item>Mulai dari pertengahan hingga akhir periode Kapur (sekitar 100 hingga 66 juta tahun yang lalu)</item>
+        <item>Periode Trias Akhir hingga Kapur Akhir (sekitar 230 hingga 66 juta tahun yang lalu)</item>
+        <item>Dari akhir Trias hingga akhir periode Kapur (sekitar 230 hingga 66 juta tahun yang lalu)</item>
+        <item>Dari awal hingga akhir periode Jura (sekitar 201 hingga 145 juta tahun yang lalu)</item>
+        <item>erutama dari pertengahan hingga akhir periode Kapur (sekitar 100 hingga 66 juta tahun yang lalu)</item>
+    </string-array>
+
+    <string-array name="famili_characteristic">
+        <item>Memiliki variasi postur dari bipedal hingga kuadrupedal, dengan kaki panjang, ekor panjang, dan ukuran tubuh yang bervariasi tergantung pada subkelompoknya</item>
+        <item>Umumnya berpostur kuadrupedal dengan moncong bervariasi, cocok untuk mengunyah tumbuhan</item>
+        <item>Memiliki pelat-pelat atau duri-duri yang melindungi tubuh, dengan tubuh yang lebih rendah dan tebal</item>
+        <item>Dikenal dengan tanduk dan lempeng di tengkoraknya, dengan postur tubuh yang berat dan cangkang yang melindungi</item>
+        <item>Terkenal dengan ukuran tubuh besar, leher dan ekor panjang, serta kecenderungan untuk bergerak dengan postur kuadrupedal</item>
+        <item>Memiliki cakar dan gigi tajam, dengan postur bipedal yang kuat dan sering kali ukuran tubuh yang besar</item>
+        <item>Memiliki tanduk di hidungnya, dengan tubuh yang ramping dan kaki yang kuat untuk menangkap mangsanya</item>
+        <item>Dikenal dengan moncong seperti bebek, ratusan gigi yang rapi, dan cenderung berpostur bipedal atau kuadrupedal tergantung pada spesiesnya</item>
+    </string-array>
+
+    <string-array name="famili_place">
+        <item>hutan, padang rumput, dataran banjir, dan wilayah pesisir</item>
+        <item>hutan-hutan lebat, daerah dataran banjir, padang rumput, dan daerah terbuka</item>
+        <item>hutan terbuka, dataran banjir, dan padang rumput, serta mungkin daerah rawa-rawa dan daerah bersemak</item>
+        <item>hutan-hutan terbuka, padang rumput, dan savana</item>
+        <item>hutan-hutan terbuka, padang rumput luas, dan daerah pesisir, dan daerah air cukup</item>
+        <item>hutan-hutan lebat, padang rumput, savana, dan daerah pesisir</item>
+        <item>hutan-hutan lebat, daerah bersemak, dan padang rumput terbuka</item>
+        <item>hutan-hutan lebat, dataran banjir, dan daerah rawa-rawa yang subur</item>
+    </string-array>
+
+    <string-array name="famili_env">
+        <item>hutan-hutan lebat hingga padang rumput terbuka, dataran banjir, daerah pesisir, dan wilayah pegunungan</item>
+        <item>hutan-hutan berdaun lebar hingga padang rumput terbuka, rawa-rawa, savana, dan daerah gurun yang memiliki akses ke air</item>
+        <item>savana, padang rumput, hutan terbuka, dan daerah dataran banjir yang luas</item>
+        <item>savana, padang rumput luas, dataran banjir, dan hutan terbuka dengan vegetasi jarang</item>
+        <item>hutan-hutan terbuka, padang rumput luas, daerah dataran banjir, dan daerah pesisir yang dekat dengan sumber air</item>
+        <item>hutan-hutan lebat, savana, rawa-rawa, dan daerah pesisir</item>
+        <item>hutan-hutan lebat, padang rumput terbuka, rawa-rawa, dan daerah gurun yang memiliki air yang cukup</item>
+        <item>hutan-hutan lebat, dataran banjir, rawa-rawa, dan daerah pesisir yang lembap dengan sumber air yang melimpah</item>
+    </string-array>
+
+    <string-array name="famili_behavior">
+        <item>Famili ini mungkin menampilkan berbagai perilaku, termasuk perilaku makan, berkembang biak, dan sosial yang bervariasi tergantung pada subkelompoknya</item>
+        <item>Terdapat variasi besar dalam perilaku ornithischia. Beberapa mungkin menunjukkan perilaku kawanan untuk melindungi diri dari pemangsa, sementara yang lain mungkin lebih soliter dalam kebiasaan makan dan berkembang biak</item>
+        <item>Dinosaurs dalam kelompok ini mungkin menampilkan perilaku defensif yang kuat untuk melindungi diri dari pemangsa, dengan mengandalkan pelat-pelat atau duri-duri mereka sebagai pertahanan</item>
+        <item>Ceratopsia mungkin menunjukkan perilaku defensif yang kuat, menggunakan tanduk dan lempeng mereka sebagai perlindungan dari pemangsa dan dalam interaksi sosial di antara sesama mereka</item>
+        <item>Dikenal dengan ukuran tubuh besar, kelompok ini mungkin menampilkan perilaku herbivora yang tenang, seringkali berkumpul dalam kelompok besar untuk mencari makanan dan melindungi diri dari pemangsa</item>
+        <item>Famili ini mungkin menampilkan perilaku karnivora yang aktif, termasuk berburu secara berkelompok, berburu secara individu, dan menggunakan strategi berburu yang canggih untuk menangkap mangsa mereka</item>
+        <item>Dinosaurs dalam kelompok ini mungkin menampilkan perilaku predator yang agresif, dengan menggunakan kecepatan dan kelincahan untuk mengejar dan menangkap mangsa mereka</item>
+        <item>Hadrosauridae mungkin menunjukkan perilaku yang beragam, termasuk perilaku makan herbivora dalam kelompok besar, komunikasi sosial melalui suara dan gerakan tubuh, serta perilaku perlindungan terhadap pemangsa</item>
+    </string-array>
+
+    <string-array name="famili_classif">
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Dinosauria, Subordo: Saurischia</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Dinosauria, Subordo: Ornithischia</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Dinosauria, Subordo: Thyreophora</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Ornithischia, Subordo: Marginocephalia, Infraordo: Ceratopsia</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Dinosauria, Subordo: Sauropodomorpha</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Dinosauria, Subordo: Theropoda</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Dinosauria, Subordo: Theropoda, Infraordo: Ceratosauria</item>
+        <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Ornithischia, Subordo: Ornithopoda, Famili: Hadrosauridae</item>
+    </string-array>
+
+    <string-array name="famili_saurischia">
+        <item></item>
+        <item>Tyrannosaurus rex</item>
+        <item>T-Rex adalah dinosaurus karnivora besar yang hidup pada periode Kapur Akhir, dikenal sebagai salah satu predator paling ikonik dalam sejarah.</item>
+        <item>-Rex memiliki tubuh besar dengan cakar dan gigi yang tajam, kepala yang besar dan kuat, serta postur bipedal yang kokoh</item>
+        <item>Saurischia</item>
+        <item>T-Rex mendiami berbagai habitat, termasuk hutan, padang rumput, dan daerah banjir, yang memberinya fleksibilitas dalam mencari mangsa</item>
+        <item>T-Rex adalah pemangsa karnivora yang memakan hewan herbivora besar seperti Triceratops dan Hadrosaurus</item>
+        <item>T–Rex memiliki panjang sekitar 12–13 meter dari ujung ke ujung ekor</item>
+        <item>Tinggi T-Rex diperkirakan mencapai sekitar 4 meter dari tanah hingga puncak kepala</item>
+        <item>T-Rex memiliki bobot sekitar 8 ton, menjadikannya salah satu dinosaurus terbesar yang pernah hidup</item>
+        <item>Meskipun kuat dan mematikan, T-Rex memiliki kelemahan berupa kecepatan yang rendah dalam bergerak mundur dan tulang yang rapuh di bagian ekornya</item>
+
+        <item>Allosaurus</item>
+        <item>Allosaurus adalah dinosaurus karnivora besar yang hidup pada periode Jura, dikenal sebagai salah satu predator utama pada zamannya.</item>
+        <item>Allosaurus memiliki tubuh besar dengan kepala yang besar dan cakar yang kuat, memungkinkannya untuk menjadi predator yang efisien.</item>
+        <item>Saurischia</item>
+        <item>Allosaurus mendiami berbagai habitat, termasuk hutan-hutan terbuka, dataran banjir, dan daerah pedalaman.</item>
+        <item>Allosaurus adalah pemangsa karnivora yang memakan berbagai jenis hewan, termasuk dinosaurus herbivora dan hewan-hewan kecil.</item>
+        <item>Allosaurus memiliki panjang sekitar 8–10 meter dari ujung moncong hingga ujung ekor.</item>
+        <item>Tinggi Allosaurus diperkirakan sekitar 3–4 meter pada pinggulnya.</item>
+        <item>Berat Allosaurus diperkirakan sekitar 2,3–4,5 ton, menjadikannya salah satu dinosaurus karnivora terbesar pada masanya.</item>
+        <item>Meskipun kuat dan mematikan, Allosaurus mungkin memiliki kelemahan dalam menghadapi hewan pemangsa yang lebih besar atau dalam situasi kompetisi dengan dinosaurus karnivora lainnya.</item>
+    </string-array>
+
+</resources>
