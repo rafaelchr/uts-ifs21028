@@ -5,13 +5,15 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Dino(
+    var icon: Int,
     var name: String,
     var description: String,
     var characteristics: String,
-    var foodType: String,
-    var period: String,
+    var group: String,
     var habitat: String,
-    var behavior: String,
-    var size: String,
+    var foodType: String,
+    var length: String,
+    var height: String,
+    var weight: String,
     var weakness: String
 ) : Parcelable

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,7 +11,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:paddingBottom="10dp">
 
         <ImageView
@@ -18,9 +18,9 @@
             android:layout_width="300dp"
             android:layout_height="230dp"
             android:layout_marginTop="16dp"
-            android:contentDescription="@string/info_famili_icon"
+            android:contentDescription="@string/info_dino_icon"
             android:scaleType="centerInside"
-            android:src="@drawable/icf_ceratopsia"
+            android:src="@drawable/icd_trex"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -30,7 +30,7 @@
             android:id="@+id/tvDetailName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/info_famili_name"
+            android:text="@string/info_dino_name"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_desc"
+            android:text="@string/info_dino_desc"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,19 +57,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_famili_periode"
+            android:text="@string/info_dino_char"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDetailDescription" />
 
         <TextView
-            android:id="@+id/tvDetailPeriode"
+            android:id="@+id/tvDetailCharacteristic"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_periode"
+            android:text="@string/info_dino_char"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -81,19 +81,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_famili_characteristic"
+            android:text="@string/info_dino_group"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailPeriode" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailCharacteristic" />
 
         <TextView
-            android:id="@+id/tvDetailCharacteristic"
+            android:id="@+id/tvDetailGroup"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_characteristic"
+            android:text="@string/info_dino_group"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -105,19 +105,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_famili_place"
+            android:text="@string/info_dino_habitat"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailCharacteristic" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailGroup" />
 
         <TextView
-            android:id="@+id/tvDetailPlace"
+            android:id="@+id/tvDetailHabitat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_place"
+            android:text="@string/info_dino_habitat"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -130,19 +130,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_famili_envi"
+            android:text="@string/info_dino_food"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailPlace" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailHabitat" />
 
         <TextView
-            android:id="@+id/tvDetailEnvi"
+            android:id="@+id/tvDetailFood"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_envi"
+            android:text="@string/info_dino_food"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -155,19 +155,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_famili_behavior"
+            android:text="@string/info_dino_length"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailEnvi" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailFood" />
 
         <TextView
-            android:id="@+id/tvDetailBehavior"
+            android:id="@+id/tvDetailHeight"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_behavior"
+            android:text="@string/info_dino_length"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -180,38 +180,74 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_famili_classif"
+            android:text="@string/info_dino_height"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailBehavior" />
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailHeight" />
 
         <TextView
-            android:id="@+id/tvDetailClassif"
+            android:id="@+id/tvDetailLength"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_famili_classif"
+            android:text="@string/info_dino_height"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTitle6" />
 
-        <Button
-            android:id="@+id/btnDino"
+        <TextView
+            android:id="@+id/tvTitle7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/info_dino_weight"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailLength" />
+
+        <TextView
+            android:id="@+id/tvDetailWeight"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="10dp"
-            android:text="Lihat Dinosaurus "
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/info_dino_weight"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDetailClassif" />
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle7" />
 
+        <TextView
+            android:id="@+id/tvTitle8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/info_dino_weak"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDetailWeight" />
+
+        <TextView
+            android:id="@+id/tvDetailWeak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/info_dino_weak"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle8" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

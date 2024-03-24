@@ -52,7 +52,7 @@
         <item>Grup ini terdiri dari dinosaurus bertubuh besar dengan leher dan ekor panjang, umumnya herbivora</item>
         <item>Kelompok ini terdiri dari dinosaurus karnivora dengan ciri-ciri seperti cakar dan gigi tajam</item>
         <item>Sebagian besar anggotanya adalah dinosaurus karnivora dengan tanduk di hidung dan gigi tajam</item>
-        <item>uga dikenal sebagai "dinosaurus bebek", kelompok ini adalah dinosaurus herbivora dengan moncong seperti bebek dan seringkali memiliki ratusan gigi yang rapi</item>
+        <item>Juga dikenal sebagai "dinosaurus bebek", kelompok ini adalah dinosaurus herbivora dengan moncong seperti bebek dan seringkali memiliki ratusan gigi yang rapi</item>
     </string-array>
 
     <string-array name="famili_periode">
@@ -121,29 +121,218 @@
         <item>Kingdom: Animalia, Filum: Chordata, Kelas: Reptilia, Ordo: Ornithischia, Subordo: Ornithopoda, Famili: Hadrosauridae</item>
     </string-array>
 
-    <string-array name="famili_saurischia">
-        <item></item>
-        <item>Tyrannosaurus rex</item>
-        <item>T-Rex adalah dinosaurus karnivora besar yang hidup pada periode Kapur Akhir, dikenal sebagai salah satu predator paling ikonik dalam sejarah.</item>
-        <item>-Rex memiliki tubuh besar dengan cakar dan gigi yang tajam, kepala yang besar dan kuat, serta postur bipedal yang kokoh</item>
-        <item>Saurischia</item>
-        <item>T-Rex mendiami berbagai habitat, termasuk hutan, padang rumput, dan daerah banjir, yang memberinya fleksibilitas dalam mencari mangsa</item>
-        <item>T-Rex adalah pemangsa karnivora yang memakan hewan herbivora besar seperti Triceratops dan Hadrosaurus</item>
-        <item>T–Rex memiliki panjang sekitar 12–13 meter dari ujung ke ujung ekor</item>
-        <item>Tinggi T-Rex diperkirakan mencapai sekitar 4 meter dari tanah hingga puncak kepala</item>
-        <item>T-Rex memiliki bobot sekitar 8 ton, menjadikannya salah satu dinosaurus terbesar yang pernah hidup</item>
-        <item>Meskipun kuat dan mematikan, T-Rex memiliki kelemahan berupa kecepatan yang rendah dalam bergerak mundur dan tulang yang rapuh di bagian ekornya</item>
+    <string-array name="saurischia_dino">
+        <item>trex</item>
+        <item>Tyrannosaurus Rex</item>
+        <item>Tyrannosaurus Rex adalah dinosaur karnivora yang hidup sekitar 68–66 juta tahun yang lalu selama periode Kapur Akhir. Dikenal sebagai salah satu predator paling kuat di darat.</item>
+        <item>T-Rex memiliki karakteristik tubuh yang besar dan kuat, dengan kepala besar yang dilengkapi dengan rahang yang kuat dan gigi yang tajam. Tubuhnya juga dilengkapi dengan kaki yang kuat dan ekor yang panjang.</item>
+        <item>Dinosaurus</item>
+        <item>T-Rex hidup di habitat daratan yang luas, termasuk hutan dan dataran rendah tropis.</item>
+        <item>T-Rex adalah pemangsa karnivora yang memakan hewan-hewan lain seperti triceratops dan hadrosaurus.</item>
+        <item>Rata-rata panjang T-Rex adalah sekitar 12 meter.</item>
+        <item>Tinggi T–Rex bisa mencapai sekitar 4–6 meter di punggungnya.</item>
+        <item>T-Rex memiliki bobot yang sangat besar, rata-rata antara 5 hingga 8 ton.</item>
+        <item>Kelemahan utama T-Rex adalah kecepatannya yang rendah, yang membuatnya sulit mengejar mangsanya.</item>
 
-        <item>Allosaurus</item>
-        <item>Allosaurus adalah dinosaurus karnivora besar yang hidup pada periode Jura, dikenal sebagai salah satu predator utama pada zamannya.</item>
-        <item>Allosaurus memiliki tubuh besar dengan kepala yang besar dan cakar yang kuat, memungkinkannya untuk menjadi predator yang efisien.</item>
-        <item>Saurischia</item>
-        <item>Allosaurus mendiami berbagai habitat, termasuk hutan-hutan terbuka, dataran banjir, dan daerah pedalaman.</item>
-        <item>Allosaurus adalah pemangsa karnivora yang memakan berbagai jenis hewan, termasuk dinosaurus herbivora dan hewan-hewan kecil.</item>
-        <item>Allosaurus memiliki panjang sekitar 8–10 meter dari ujung moncong hingga ujung ekor.</item>
-        <item>Tinggi Allosaurus diperkirakan sekitar 3–4 meter pada pinggulnya.</item>
-        <item>Berat Allosaurus diperkirakan sekitar 2,3–4,5 ton, menjadikannya salah satu dinosaurus karnivora terbesar pada masanya.</item>
-        <item>Meskipun kuat dan mematikan, Allosaurus mungkin memiliki kelemahan dalam menghadapi hewan pemangsa yang lebih besar atau dalam situasi kompetisi dengan dinosaurus karnivora lainnya.</item>
+        <item>veloci</item>
+        <item>Velociraptor</item>
+        <item>Velociraptor adalah salah satu jenis dinosaurus theropoda yang hidup sekitar 75–71 juta tahun yang lalu pada periode Kapur Akhir. Dikenal sebagai predator cerdas dan lincah.</item>
+        <item>Velociraptor memiliki karakteristik tubuh yang ramping dengan kepala kecil, rahang yang kuat dilengkapi dengan gigi yang tajam, kaki yang kuat dengan cakar melengkung yang digunakan untuk memburu mangsa, dan ekor yang panjang untuk keseimbangan saat berlari.</item>
+        <item>Dinosaurus</item>
+        <item>Velociraptor hidup di habitat daratan seperti hutan tropis dan padang rumput yang luas.</item>
+        <item>Velociraptor adalah hewan karnivora yang memangsa berbagai jenis hewan kecil seperti burung, mamalia kecil, dan reptil.</item>
+        <item>Rata-rata panjang Velociraptor adalah sekitar 1,8 meter.</item>
+        <item>Velociraptor memiliki tinggi sekitar 0,6 meter di punggungnya.</item>
+        <item>Bobot Velociraptor diperkirakan sekitar 15–20 kg.</item>
+        <item>Kelemahan utama Velociraptor adalah tyrannosaur yang kecil dibandingkan dengan beberapa predator lainnya serta kurangnya perlindungan fisik yang signifikan.</item>
+
     </string-array>
 
+    <string-array name="ornithischia_dino">
+        <item>ankylo</item>
+        <item>Ankylosaurus</item>
+        <item>Ankylosaurus adalah salah satu jenis dinosaurus herbivora yang hidup sekitar 68–66 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena memiliki perlindungan berat di tubuhnya dan senjata alami untuk pertahanan.</item>
+        <item>Ankylosaurus memiliki karakteristik tubuh yang besar dan berat dengan punggung yang dilindungi oleh tulang yang keras dan cakar yang besar di ujung ekor untuk pertahanan. Tubuhnya rendah dan lebar, dilengkapi dengan leher pendek dan kepala besar.</item>
+        <item>Dinosaurus</item>
+        <item>Ankylosaurus hidup di habitat dataran rendah yang berair dan berawa-rawa serta hutan hujan tropis.</item>
+        <item>Ankylosaurus adalah herbivora yang memakan tanaman seperti tumbuhan rendah, daun, dan tanaman pohon kecil.</item>
+        <item>Rata–rata panjang Ankylosaurus diperkirakan mencapai sekitar 6–9 meter.</item>
+        <item>Ankylosaurus memiliki tinggi sekitar 1,5 meter di punggungnya.</item>
+        <item>Bobot Ankylosaurus diperkirakan antara 4 hingga 6 ton.</item>
+        <item>Kelemahan utama Ankylosaurus adalah kecepatannya yang rendah dan keterbatasan dalam mobilitasnya karena tubuh</item>
+
+        <item>pachy</item>
+        <item>Pachycephalosaurus</item>
+        <item>Pachycephalosaurus adalah jenis dinosaurus herbivora yang hidup sekitar 70–65 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena tengkoraknya yang tebal dan duri-duri yang menutupi tubuhnya.</item>
+        <item>Pachycephalosaurus memiliki karakteristik tubuh yang relatif kecil dengan kepala besar yang dilindungi oleh tengkorak yang tebal. Bagian belakang tengkoraknya memiliki duri-duri yang dapat digunakan untuk pertahanan dan dalam ritual perkelahian antara sesama Pachycephalosaurus.</item>
+        <item>Dinosaurus</item>
+        <item>Pachycephalosaurus hidup di habitat daratan yang luas, termasuk dataran rendah dan hutan-hutan yang lebat.</item>
+        <item>Pachycephalosaurus adalah herbivora yang memakan berbagai jenis tumbuhan seperti daun, tunas, dan tanaman rendah lainnya.</item>
+        <item>Rata-rata panjang Pachycephalosaurus diperkirakan sekitar 4,5 hingga 5,5 meter.</item>
+        <item>Pachycephalosaurus memiliki tinggi sekitar 1,5 meter di punggungnya.</item>
+        <item>Bobot Pachycephalosaurus diperkirakan antara 400 hingga 900 kilogram.</item>
+        <item>Kelemahan utama Pachycephalosaurus adalah ukuran tubuhnya yang relatif kecil, membuatnya rentan terhadap serangan predator yang lebih besar.</item>
+
+    </string-array>
+
+    <string-array name="thyreophora_dino">
+        <item>stego</item>
+        <item>Stegosaurus</item>
+        <item>Stegosaurus adalah salah satu jenis dinosaurus herbivora yang hidup sekitar 155–150 juta tahun yang lalu pada periode Jura Akhir. Dikenal karena memiliki punggung yang dilindungi oleh lempeng-lempeng tulang dan duri-duri tajam.</item>
+        <item>Stegosaurus memiliki karakteristik tubuh yang besar dengan lempeng-lempeng tulang yang terletak di punggungnya, dan juga memiliki ekor yang dilengkapi dengan sepasang duri yang dapat digunakan untuk pertahanan.</item>
+        <item>Dinosaurus</item>
+        <item>Stegosaurus hidup di habitat daratan yang luas, termasuk dataran rendah, hutan, dan padang rumput.</item>
+        <item>Stegosaurus adalah herbivora yang memakan berbagai jenis tanaman seperti lumut, paku-pakuan, dan tanaman rendah lainnya.</item>
+        <item>Rata-rata panjang Stegosaurus diperkirakan mencapai sekitar 9 meter.</item>
+        <item>Stegosaurus memiliki tinggi sekitar 2,75 meter di punggungnya.</item>
+        <item>Bobot Stegosaurus diperkirakan antara 2 hingga 5 ton.</item>
+        <item>Kelemahan utama Stegosaurus adalah kecepatannya yang rendah dan keterbatasan dalam mobilitasnya karena tubuh yang besar serta otak yang relatif kecil.</item>
+
+        <item>kentro</item>
+        <item>Kentrosaurus</item>
+        <item>Kentrosaurus adalah jenis dinosaurus herbivora yang hidup sekitar 156–150 juta tahun yang lalu pada periode Jura Akhir. Dikenal karena memiliki punggung yang dilindungi oleh duri-duri tajam sebagai pertahanan terhadap predator.</item>
+        <item>Kentrosaurus memiliki karakteristik tubuh yang besar dengan punggung yang dilindungi oleh baris duri-duri yang panjang, terutama di bagian belakang tubuhnya. Duri-duri ini digunakan sebagai perlindungan dari serangan predator dan sebagai alat pertahanan saat terancam.</item>
+        <item>Dinosaurus</item>
+        <item>Kentrosaurus hidup di habitat daratan yang luas, termasuk dataran rendah dan hutan terbuka.</item>
+        <item>Kentrosaurus adalah herbivora yang memakan berbagai jenis tumbuhan seperti lumut, paku-pakuan, dan tanaman rendah lainnya.</item>
+        <item>Rata–rata panjang Kentrosaurus diperkirakan mencapai sekitar 4–5 meter.</item>
+        <item>Kentrosaurus memiliki tinggi sekitar 1,5 meter di punggungnya.</item>
+        <item>Bobot Kentrosaurus diperkirakan antara 1 hingga 2 ton.</item>
+        <item>Kelemahan utama Kentrosaurus adalah kecepatan dan keluwesan tubuh yang terbatas, sehingga membuatnya rentan terhadap serangan predator yang lebih gesit.</item>
+
+    </string-array>
+
+    <string-array name="ceratopsia_dino">
+        <item>trice</item>
+        <item>Triceratops</item>
+        <item>Triceratops adalah dinosaurus herbivora yang hidup sekitar 68–66 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena memiliki tiga tanduk besar di kepala dan sebuah tanduk di hidungnya.</item>
+        <item>Triceratops memiliki karakteristik tubuh yang besar dengan kepala yang dilengkapi dengan tiga tanduk besar, di antaranya satu tanduk di hidungnya. Tubuhnya rendah dan berat, dengan tubuh belakangnya dilindungi oleh sejumlah lempeng tulang yang besar.</item>
+        <item>Dinosaurus</item>
+        <item>Triceratops hidup di habitat daratan yang luas, termasuk padang rumput dan daerah dataran rendah.</item>
+        <item>Triceratops adalah herbivora yang memakan berbagai jenis tumbuhan seperti lumut, paku-pakuan, dan tanaman rendah lainnya.</item>
+        <item>Rata–rata panjang Triceratops diperkirakan mencapai sekitar 8–9 meter.</item>
+        <item>Triceratops memiliki tinggi sekitar 3 meter di punggungnya.</item>
+        <item>Bobot Triceratops diperkirakan antara 6 hingga 12 ton.</item>
+        <item>Kelemahan utama Triceratops adalah kecepatannya yang rendah dan keluwesan tubuh yang terbatas, membuatnya rentan terhadap serangan predator yang lebih gesit.</item>
+
+        <item>styra</item>
+        <item>Styracosaurus</item>
+        <item>Styracosaurus adalah dinosaurus herbivora yang hidup sekitar 75–70 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena memiliki lempeng-lempeng tulang yang besar di sekitar lehernya dan tanduk besar di sekitar tengkoraknya.</item>
+        <item>Styracosaurus memiliki karakteristik tubuh yang besar dengan punggung yang dilindungi oleh lempeng-lempeng tulang besar yang berjajar dari tengkuk hingga pangkal ekor. Kepala Styracosaurus dilengkapi dengan satu tanduk besar di hidungnya dan beberapa tanduk yang lebih kecil di sekitar tepinya.</item>
+        <item>Dinosaurus</item>
+        <item>Styracosaurus hidup di habitat daratan yang luas, termasuk dataran rendah dan hutan terbuka.</item>
+        <item>Styracosaurus adalah herbivora yang memakan berbagai jenis tanaman seperti lumut, paku-pakuan, dan tanaman rendah lainnya.</item>
+        <item>Rata-rata panjang Styracosaurus diperkirakan mencapai sekitar 5,5 hingga 6 meter.</item>
+        <item>Styracosaurus memiliki tinggi sekitar 2,5 meter di punggungnya.</item>
+        <item>Bobot Styracosaurus diperkirakan antara 3 hingga 4 ton.</item>
+        <item>Kelemahan utama Styracosaurus adalah kecepatan dan keluwesan tubuh yang terbatas, sehingga membuatnya rentan terhadap serangan predator yang lebih gesit.</item>
+
+    </string-array>
+
+    <string-array name="sauropodomorpha_dino">
+        <item>brach</item>
+        <item>Brachiosaurus</item>
+        <item>Brachiosaurus adalah salah satu jenis dinosaurus herbivora yang hidup sekitar 154–153 juta tahun yang lalu pada periode Jura Akhir. Dikenal karena memiliki leher panjang yang memungkinkannya mencapai daun-daun tinggi di pohon-pohon.</item>
+        <item>Brachiosaurus memiliki karakteristik tubuh yang besar dengan leher panjang dan kaki depan yang lebih panjang daripada kaki belakangnya. Tubuhnya rendah dan berat, dengan kepala yang relatif kecil dan tanduk yang kecil di atas matanya.</item>
+        <item>Dinosaurus</item>
+        <item>Brachiosaurus hidup di habitat daratan yang luas, termasuk dataran rendah dan hutan terbuka.</item>
+        <item>Brachiosaurus adalah herbivora yang memakan berbagai jenis tanaman seperti dedaunan, daun, dan tunas pohon tinggi.</item>
+        <item>Rata–rata panjang Brachiosaurus diperkirakan mencapai sekitar 23–30 meter.</item>
+        <item>Brachiosaurus memiliki tinggi sekitar 13–16 meter di punggungnya.</item>
+        <item>Bobot Brachiosaurus diperkirakan antara 30 hingga 60 ton.</item>
+        <item>Kelemahan utama Brachiosaurus adalah kecepatannya yang lambat dan keterbatasan dalam mobilitasnya karena ukuran tubuh yang besar.</item>
+
+        <item>diplo</item>
+        <item>Diplodocus</item>
+        <item>Diplodocus adalah jenis dinosaurus herbivora yang hidup sekitar 154–152 juta tahun yang lalu pada periode Jura Akhir. Dikenal karena memiliki tubuh yang panjang dan ekor yang panjang pula.</item>
+        <item>Diplodocus memiliki karakteristik tubuh yang panjang dengan leher yang sangat panjang dan ekor yang juga panjang. Kepalanya kecil dan ramping dibandingkan dengan tubuhnya yang besar.</item>
+        <item>Dinosaurus</item>
+        <item>Diplodocus hidup di habitat daratan yang luas, termasuk padang rumput dan dataran rendah.</item>
+        <item>Diplodocus adalah herbivora yang memakan berbagai jenis tanaman seperti daun, tunas pohon, dan lumut.</item>
+        <item>Rata–rata panjang Diplodocus diperkirakan mencapai sekitar 24–27 meter.</item>
+        <item>Diplodocus memiliki tinggi sekitar 6–7 meter di punggungnya.</item>
+        <item>Bobot Diplodocus diperkirakan antara 10 hingga 16 ton.</item>
+        <item>Kelemahan utama Diplodocus adalah kecepatannya yang lambat dan keterbatasan dalam mobilitasnya karena ukuran tubuhnya yang besar.</item>
+
+    </string-array>
+
+    <string-array name="theropoda_dino">
+        <item>allos</item>
+        <item>Allosaurus</item>
+        <item>Allosaurus adalah jenis dinosaurus theropoda yang hidup sekitar 155–150 juta tahun yang lalu pada periode Jura Akhir. Dikenal karena menjadi predator utama di ekosistemnya pada masa itu.</item>
+        <item>Allosaurus memiliki karakteristik tubuh yang besar dengan kepala yang besar dan rahang yang dilengkapi dengan gigi-gigi yang tajam. Tubuhnya dilengkapi dengan kaki yang kuat dan cakar yang tajam untuk menyerang mangsanya.</item>
+        <item>Dinosaurus</item>
+        <item>Allosaurus hidup di habitat daratan yang luas, termasuk padang rumput, hutan, dan dataran rendah.</item>
+        <item>Allosaurus adalah karnivora yang memangsa berbagai jenis hewan herbivora dan mungkin juga hewan-hewan lainnya yang lebih kecil.</item>
+        <item>Rata–rata panjang Allosaurus diperkirakan mencapai sekitar 9–12 meter.</item>
+        <item>Allosaurus memiliki tinggi sekitar 3–4 meter di punggungnya.</item>
+        <item>Bobot Allosaurus diperkirakan antara 2 hingga 5 ton.</item>
+        <item>Kelemahan utama Allosaurus adalah kecepatannya yang tinggi namun mobilitasnya kurang efisien dalam perubahan arah, membuatnya rentan terhadap serangan yang terkoordinasi dengan baik dari mangsanya.</item>
+
+        <item>spino</item>
+        <item>Spinosaurus</item>
+        <item>Spinosaurus adalah jenis dinosaurus theropoda yang hidup sekitar 112–93 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena memiliki punggung yang dilapisi oleh "layar" tulang yang memungkinkannya untuk mengatur suhu tubuhnya.</item>
+        <item>Spinosaurus memiliki karakteristik tubuh yang besar dengan kepala yang panjang dan rahang yang dilengkapi dengan gigi-gigi yang tajam. Salah satu ciri khasnya adalah punggungnya yang dilapisi oleh "layar" tulang yang membantu dalam berbagai fungsi, termasuk regulasi suhu tubuh dan penampilan untuk mengintimidasi musuh atau menarik pasangan saat musim kawin.</item>
+        <item>Dinosaurus</item>
+        <item>Spinosaurus hidup di habitat sungai dan rawa-rawa yang luas di daerah yang sekarang merupakan bagian dari Afrika Utara.</item>
+        <item>Spinosaurus adalah karnivora yang memangsa berbagai jenis ikan dan mungkin juga hewan-hewan darat yang lebih kecil yang hidup di sekitar air.</item>
+        <item>Rata–rata panjang Spinosaurus diperkirakan mencapai sekitar 12–18 meter.</item>
+        <item>Spinosaurus memiliki tinggi sekitar 4–5 meter di punggungnya.</item>
+        <item>Bobot Spinosaurus diperkirakan antara 7 hingga 20 ton.</item>
+        <item>Kelemahan utama Spinosaurus adalah kecepatannya yang rendah di darat dan keterbatasan mobilitasnya di luar air, namun diimbangi dengan keunggulannya sebagai pemburu ikan yang efektif.</item>
+
+    </string-array>
+
+    <string-array name="ceratosauria_dino">
+        <item>cerato</item>
+        <item>Ceratosaurus</item>
+        <item>Ceratosaurus adalah jenis dinosaurus theropoda yang hidup sekitar 154–150 juta tahun yang lalu pada periode Jura Akhir. Dikenal karena memiliki tanduk di hidung dan tanduk kecil di atas matanya.</item>
+        <item>Ceratosaurus memiliki karakteristik tubuh yang besar dengan kepala yang besar dan berat. Salah satu ciri khasnya adalah dua tanduk, satu di hidungnya dan satu di atas matanya, yang digunakan untuk keperluan seremonial atau mungkin sebagai alat pertarungan saat bersaing dengan sesama Ceratosaurus.</item>
+        <item>Dinosaurus</item>
+        <item>Ceratosaurus hidup di habitat daratan yang luas, termasuk dataran rendah, hutan terbuka, dan padang rumput.</item>
+        <item>Ceratosaurus adalah karnivora yang memangsa berbagai jenis hewan herbivora dan mungkin juga hewan-hewan kecil lainnya.</item>
+        <item>Rata–rata panjang Ceratosaurus diperkirakan mencapai sekitar 6–8 meter.</item>
+        <item>Ceratosaurus memiliki tinggi sekitar 2–3 meter di punggungnya.</item>
+        <item>Bobot Ceratosaurus diperkirakan antara 1,5 hingga 2,5 ton.</item>
+        <item>Kelemahan utama Ceratosaurus adalah kecepatannya yang rendah di darat dan keterbatasan mobilitasnya, namun diimbangi dengan keunggulannya sebagai pemburu yang kuat dan agresif.</item>
+
+        <item>carno</item>
+        <item>Carnotaurus</item>
+        <item>Carnotaurus adalah jenis dinosaurus theropoda yang hidup sekitar 72–69 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena memiliki tanduk yang besar di atas matanya dan tubuh yang sangat kekar.</item>
+        <item>Carnotaurus memiliki karakteristik tubuh yang unik dengan tubuh yang sangat kekar dan pendek, kepala yang besar dan lebar, serta tanduk yang besar di atas matanya. Selain itu, Carnotaurus juga dikenal karena memiliki lengan depan yang sangat pendek, bahkan lebih pendek dari pada dinosaurus theropoda lainnya.</item>
+        <item>Dinosaurus</item>
+        <item>Carnotaurus hidup di habitat daratan yang luas, termasuk dataran rendah, hutan terbuka, dan padang rumput.</item>
+        <item>Carnotaurus adalah karnivora yang memangsa berbagai jenis hewan herbivora dan mungkin juga hewan-hewan kecil lainnya.</item>
+        <item>Rata–rata panjang Carnotaurus diperkirakan mencapai sekitar 7–9 meter.</item>
+        <item>Carnotaurus memiliki tinggi sekitar 2,5 meter di punggungnya.</item>
+        <item>Bobot Carnotaurus diperkirakan antara 1,5 hingga 2 ton.</item>
+        <item>Kelemahan utama Carnotaurus adalah lengan depannya yang pendek, yang mungkin membuatnya kurang efektif dalam berburu atau bertarung secara langsung dengan mangsanya.</item>
+
+    </string-array>
+
+    <string-array name="hadrosauridae_dino">
+        <item>parasa</item>
+        <item>Parasaurolophus</item>
+        <item>Parasaurolophus adalah jenis dinosaurus herbivora yang hidup sekitar 76–73 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena memiliki crests panjang di atas kepala mereka yang digunakan untuk berkomunikasi dan mungkin juga sebagai alat untuk menghasilkan suara.</item>
+        <item>Parasaurolophus memiliki karakteristik tubuh yang besar dengan leher yang panjang dan kepala yang dilengkapi dengan crest yang khas. Crest ini dapat tumbuh hingga beberapa kaki panjangnya dan dapat memiliki berbagai bentuk, mulai dari melengkung ke atas hingga meruncing ke belakang.</item>
+        <item>Dinosaurus</item>
+        <item>Parasaurolophus hidup di habitat daratan yang luas, termasuk dataran rendah, hutan terbuka, dan padang rumput.</item>
+        <item>Parasaurolophus adalah herbivora yang memakan berbagai jenis tanaman seperti dedaunan, paku-pakuan, dan tunas pohon.</item>
+        <item>Rata–rata panjang Parasaurolophus diperkirakan mencapai sekitar 9–10 meter.</item>
+        <item>Parasaurolophus memiliki tinggi sekitar 4–5 meter di punggungnya.</item>
+        <item>Bobot Parasaurolophus diperkirakan antara 2 hingga 3,5 ton.</item>
+        <item>Kelemahan utama Parasaurolophus adalah kecepatan yang rendah dan keterbatasan mobilitasnya karena ukuran tubuh yang besar.</item>
+
+        <item>edmon</item>
+        <item>Edmontosaurus</item>
+        <item>Edmontosaurus adalah jenis dinosaurus herbivora yang hidup sekitar 73–66 juta tahun yang lalu pada periode Kapur Akhir. Dikenal karena menjadi salah satu dinosaurus herbivora terbesar yang pernah ada.</item>
+        <item>Edmontosaurus memiliki karakteristik tubuh yang besar dengan tubuh yang panjang dan ramping, kepala yang kecil dan runcing, serta kaki yang kokoh untuk menopang tubuh yang besar. Mereka juga memiliki rahang yang dilengkapi dengan gigi-gigi yang rapi untuk mengunyah makanan tumbuhan.</item>
+        <item>Dinosaurus</item>
+        <item>Edmontosaurus hidup di habitat daratan yang luas, termasuk dataran rendah, hutan terbuka, dan padang rumput.</item>
+        <item>Edmontosaurus adalah herbivora yang memakan berbagai jenis tanaman seperti dedaunan, paku-pakuan, dan tunas pohon.</item>
+        <item>Rata–rata panjang Edmontosaurus diperkirakan mencapai sekitar 12–13 meter.</item>
+        <item>Edmontosaurus memiliki tinggi sekitar 3–4 meter di punggungnya.</item>
+        <item>Bobot Edmontosaurus diperkirakan antara 4 hingga 6 ton.</item>
+        <item>Kelemahan utama Edmontosaurus adalah kecepatannya yang rendah dan keterbatasan mobilitasnya karena ukuran tubuh yang besar.</item>
+    </string-array>
 </resources>

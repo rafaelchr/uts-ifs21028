@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DinoPedia"
         tools:targetApi="31">
         <activity
+            android:name=".DetdinoActivity"
+            android:exported="false" />
+        <activity
             android:name=".NestActivity"
             android:exported="false" />
         <activity

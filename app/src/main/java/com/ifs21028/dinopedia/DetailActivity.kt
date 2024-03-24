@@ -26,9 +26,11 @@ class DetailActivity : AppCompatActivity() {
             intent.getParcelableExtra(EXTRA_FAMILI)
         }
 
+        val familiName = famili!!.name
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         if (famili != null) {
-            supportActionBar?.title = "About ${famili!!.name}"
+            supportActionBar?.title = "Tentang $familiName"
             loadData(famili!!)
         } else {
             finish()
@@ -37,8 +39,9 @@ class DetailActivity : AppCompatActivity() {
         val btnDino = findViewById<Button>(R.id.btnDino)
 
         btnDino.setOnClickListener {
-            val intent = Intent(this@DetailActivity, NestActivity::class.java)
-            startActivity(intent)
+            val intentWithData = Intent(this@DetailActivity, NestActivity::class.java)
+            intentWithData.putExtra(NestActivity.EXTRA_DINO, familiName)
+            startActivity(intentWithData)
         }
 
     }

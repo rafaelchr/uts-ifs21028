@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.ifs21028.dinopedia.databinding.ItemRowFamiliBinding
+import com.ifs21028.dinopedia.databinding.ItemRowDinoBinding
 
-class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
-    RecyclerView.Adapter<ListFamiliAdapter.ListViewHolder>() {
+class ListDinoAdapter(private val listDino: ArrayList<Dino>) :
+    RecyclerView.Adapter<ListDinoAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
@@ -16,26 +16,26 @@ class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ListViewHolder {
-        val binding = ItemRowFamiliBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+        val binding = ItemRowDinoBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
         return ListViewHolder(binding)
     }
 
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val famili = listFamili[position]
-        holder.binding.ivItemFamili.setImageResource(famili.icon)
-        holder.binding.tvItemFamili.text = famili.name
+        val dino = listDino[position]
+        holder.binding.ivItemDino.setImageResource(dino.icon)
+        holder.binding.tvItemDino.text = dino.name
 
         holder.itemView.setOnClickListener {
-            onItemClickCallback.onItemClicked(listFamili[holder.adapterPosition])
+            onItemClickCallback.onItemClicked(listDino[holder.adapterPosition])
         }
     }
 
-    override fun getItemCount(): Int = listFamili.size
+    override fun getItemCount(): Int = listDino.size
 
-    class ListViewHolder(var binding: ItemRowFamiliBinding) : RecyclerView.ViewHolder(binding.root)
+    class ListViewHolder(var binding: ItemRowDinoBinding) : RecyclerView.ViewHolder(binding.root)
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: Famili)
+        fun onItemClicked(data: Dino)
     }
 }

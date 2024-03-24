@@ -3,7 +3,10 @@ package com.ifs21028.dinopedia
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.res.Configuration
+import android.graphics.drawable.Drawable
+import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
@@ -11,20 +14,29 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ifs21028.dinopedia.databinding.ActivityMainBinding
+import com.ifs21028.dinopedia.databinding.ActivityNestBinding
 
 class NestActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-    private val dataFamili = ArrayList<Famili>()
+    private lateinit var binding: ActivityNestBinding
+    private val dataDino = ArrayList<Dino>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityNestBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.rvFamili.setHasFixedSize(false)
-        dataFamili.addAll(getListFamili())
+        val dino = intent.getStringExtra(EXTRA_DINO)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        if (dino != null) {
+            supportActionBar?.title = "Dinosaurus $dino"
+        } else {
+            finish()
+        }
+
+        binding.rvDino.setHasFixedSize(false)
+        dataDino.addAll(getListDino(dino!!.lowercase() + "_dino"))
         showRecyclerList()
     }
 
@@ -40,6 +52,10 @@ class NestActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
             R.id.menu_about -> {
                 // Tambahkan kode aksi yang diinginkan di sini
                 openProfile()
@@ -51,44 +67,59 @@ class NestActivity : AppCompatActivity() {
     }
 
     @SuppressLint("Recycle")
-    private fun getListFamili(): ArrayList<Famili> {
-        val dataName = resources.getStringArray(R.array.famili_name)
-        val dataIcon = resources.obtainTypedArray(R.array.famili_icon)
-        val dataDescription = resources.getStringArray(R.array.famili_description)
-        val dataPeriode = resources.getStringArray(R.array.famili_periode)
-        val dataCharacteristic = resources.getStringArray(R.array.famili_characteristic)
-        val dataPlace = resources.getStringArray(R.array.famili_place)
-        val dataEnvi = resources.getStringArray(R.array.famili_env)
-        val dataBehavior = resources.getStringArray(R.array.famili_behavior)
-        val dataClassif = resources.getStringArray(R.array.famili_classif)
+    private fun getListDino(namaFamili: String): ArrayList<Dino> {
+        val listDino = ArrayList<Dino>()
 
-        val listFamili = ArrayList<Famili>()
-        for (i in dataName.indices) {
-            val famili = Famili(dataName[i], dataIcon.getResourceId(i, -1), dataDescription[i], dataPeriode[i], dataCharacteristic[i], dataPlace[i], dataEnvi[i], dataBehavior[i], dataClassif[i])
-            listFamili.add(famili)
+        // Mendapatkan array string berdasarkan nama famili
+        val resourceId = resources.getIdentifier(namaFamili, "array", packageName)
+        val familiDino = resources.getStringArray(resourceId)
+//        val icons = resources.obtainTypedArray(resourceId)
+
+        for (dinoData in familiDino.toList().chunked(11)) {
+            val dino = Dino(
+                resources.getIdentifier(dinoData[0], "drawable", packageName),       // Icon
+                dinoData[1],  // Name
+                dinoData[2],  // Description
+                dinoData[3],  // Characteristic
+                dinoData[4],  // Group
+                dinoData[5],  // Habitat
+                dinoData[6],  // Food
+                dinoData[7],  // Length
+                dinoData[8],  // Height
+                dinoData[9],   // Weight
+                dinoData[10],  // Weakness
+            )
+            listDino.add(dino)
         }
-        return listFamili
+
+        return listDino
     }
+
+
 
     private fun showRecyclerList() {
         if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            binding.rvFamili.layoutManager = GridLayoutManager(this, 2)
+            binding.rvDino.layoutManager = GridLayoutManager(this, 2)
         } else {
-            binding.rvFamili.layoutManager = LinearLayoutManager(this)
+            binding.rvDino.layoutManager = LinearLayoutManager(this)
         }
 
-        val listFamiliAdapter = ListFamiliAdapter(dataFamili)
-        binding.rvFamili.adapter = listFamiliAdapter
-        listFamiliAdapter.setOnItemClickCallback(object : ListFamiliAdapter.OnItemClickCallback {
-            override fun onItemClicked(data: Famili) {
-                showSelectedFamili(data)
+        val listDinoAdapter = ListDinoAdapter(dataDino)
+        binding.rvDino.adapter = listDinoAdapter
+        listDinoAdapter.setOnItemClickCallback(object : ListDinoAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Dino) {
+                showSelectedDino(data)
             }
         })
     }
 
-    private fun showSelectedFamili(famili: Famili) {
-        val intentWithData = Intent(this@NestActivity, DetailActivity::class.java)
-        intentWithData.putExtra(DetailActivity.EXTRA_FAMILI, famili)
+    private fun showSelectedDino(dino: Dino) {
+        val intentWithData = Intent(this@NestActivity, DetdinoActivity::class.java)
+        intentWithData.putExtra(DetdinoActivity.EXTRA_DETDINO, dino)
         startActivity(intentWithData)
+    }
+
+    companion object {
+        const val EXTRA_DINO = "extra_dino"
     }
 }
